@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RootElement="http:///schemas/RootElement/_DtxWMMmkEeeCRIDL_dliCQ/12" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/RootElement/_DtxWMMmkEeeCRIDL_dliCQ/12 model.profile.uml#_DtykUMmkEeeCRIDL_dliCQ">
+  <uml:Model xmi:id="_Ci1yoL64EeeqBOGRxpdxsQ" name="RootElement">
+    <packagedElement xmi:type="uml:Class" xmi:id="_DPRa0L64EeeqBOGRxpdxsQ" name="strikes"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HQnzkL68EeeqBOGRxpdxsQ" name="balls"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_c7BqgL68EeeqBOGRxpdxsQ" name="Factor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8KnTA768EeeqBOGRxpdxsQ" name="weights" type="_yJ9tcL68EeeqBOGRxpdxsQ" association="_8KnTAL68EeeqBOGRxpdxsQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GaJCE769EeeqBOGRxpdxsQ" name="strikes" type="_DPRa0L64EeeqBOGRxpdxsQ" association="_GaJCEL69EeeqBOGRxpdxsQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_G9VOs769EeeqBOGRxpdxsQ" name="balls" type="_HQnzkL68EeeqBOGRxpdxsQ" association="_G9VOsL69EeeqBOGRxpdxsQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_n_-wQ769EeeqBOGRxpdxsQ" name="fastball" type="_YtGcEL69EeeqBOGRxpdxsQ" association="_n_-wQL69EeeqBOGRxpdxsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yJ9tcL68EeeqBOGRxpdxsQ" name="Weights"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8KnTAL68EeeqBOGRxpdxsQ" name="produces" memberEnd="_8KnTA768EeeqBOGRxpdxsQ _8KnTBL68EeeqBOGRxpdxsQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8KnTAb68EeeqBOGRxpdxsQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8KnTAr68EeeqBOGRxpdxsQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_8KnTBL68EeeqBOGRxpdxsQ" name="factor" type="_c7BqgL68EeeqBOGRxpdxsQ" association="_8KnTAL68EeeqBOGRxpdxsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GaJCEL69EeeqBOGRxpdxsQ" name="parameter1" memberEnd="_GaJCE769EeeqBOGRxpdxsQ _GaJCFL69EeeqBOGRxpdxsQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GaJCEb69EeeqBOGRxpdxsQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GaJCEr69EeeqBOGRxpdxsQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_GaJCFL69EeeqBOGRxpdxsQ" name="factor" type="_c7BqgL68EeeqBOGRxpdxsQ" association="_GaJCEL69EeeqBOGRxpdxsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_G9VOsL69EeeqBOGRxpdxsQ" name="parameter2" memberEnd="_G9VOs769EeeqBOGRxpdxsQ _G9VOtL69EeeqBOGRxpdxsQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G9VOsb69EeeqBOGRxpdxsQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G9VOsr69EeeqBOGRxpdxsQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_G9VOtL69EeeqBOGRxpdxsQ" name="factor" type="_c7BqgL68EeeqBOGRxpdxsQ" association="_G9VOsL69EeeqBOGRxpdxsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YtGcEL69EeeqBOGRxpdxsQ" name="fastball"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_n_-wQL69EeeqBOGRxpdxsQ" name="parameter3" memberEnd="_n_-wQ769EeeqBOGRxpdxsQ _n_-wRL69EeeqBOGRxpdxsQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n_-wQb69EeeqBOGRxpdxsQ" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_-wQr69EeeqBOGRxpdxsQ" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_n_-wRL69EeeqBOGRxpdxsQ" name="factor" type="_c7BqgL68EeeqBOGRxpdxsQ" association="_n_-wQL69EeeqBOGRxpdxsQ"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_wC-oQL67EeeqBOGRxpdxsQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XVIXVMmkEeeCRIDL_dliCQ" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XVIXVcmkEeeCRIDL_dliCQ" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XVIXVsmkEeeCRIDL_dliCQ" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XVIXV8mkEeeCRIDL_dliCQ" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XVIXWMmkEeeCRIDL_dliCQ" key="Date" value="2017-11-14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XVIXWcmkEeeCRIDL_dliCQ" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wC-oQb67EeeqBOGRxpdxsQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="model.profile.uml#_DtykUMmkEeeCRIDL_dliCQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="model.profile.uml#_sAylsLO5Eee6XbCAmhUn-A"/>
+    </profileApplication>
+  </uml:Model>
+  <RootElement:ObservedVariable xmi:id="_zPJCQL67EeeqBOGRxpdxsQ" base_Class="_DPRa0L64EeeqBOGRxpdxsQ" dataType="Double" infer="true" trainValues="{ 2, 1, 2, 0, 1, 0 }" testValues="{ 2, 1, 2 }"/>
+  <RootElement:ObservedVariable xmi:id="_J9oMYL68EeeqBOGRxpdxsQ" base_Class="_HQnzkL68EeeqBOGRxpdxsQ" dataType="Double" infer="true" trainValues="{ 3, 3, 0, 2, 1, 0 }" testValues="{ 3, 2, 0 }"/>
+  <RootElement:Factor xmi:id="_dt-KYL68EeeqBOGRxpdxsQ" base_Class="_c7BqgL68EeeqBOGRxpdxsQ" type="Gaussian" variable="_zPJCQL67EeeqBOGRxpdxsQ _J9oMYL68EeeqBOGRxpdxsQ" randomvariable="_zxRCcL68EeeqBOGRxpdxsQ"/>
+  <RootElement:RandomVariable xmi:id="_zxRCcL68EeeqBOGRxpdxsQ" base_Class="_yJ9tcL68EeeqBOGRxpdxsQ" dataType="Float"/>
+  <RootElement:ObservedVariable xmi:id="_buV_gL69EeeqBOGRxpdxsQ" base_Class="_YtGcEL69EeeqBOGRxpdxsQ" dataType="Boolean" predict="true" trainValues="{ true, false, true, true, false, false }"/>
+</xmi:XMI>

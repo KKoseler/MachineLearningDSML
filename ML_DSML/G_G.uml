@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RootElement="http:///schemas/RootElement/_DtxWMMmkEeeCRIDL_dliCQ/12" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/RootElement/_DtxWMMmkEeeCRIDL_dliCQ/12 model.profile.uml#_DtykUMmkEeeCRIDL_dliCQ">
+  <uml:Model xmi:id="_wMYUcAFtEeiMnMx4Wkx62w" name="RootElement">
+    <packagedElement xmi:type="uml:Association" xmi:id="_xsKsMAFtEeiMnMx4Wkx62w" memberEnd="_xsKsQAFtEeiMnMx4Wkx62w _xsKsMwFtEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_xsKsMQFtEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_xsKsMgFtEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_xsKsMwFtEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_xsKsMAFtEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xsKsNAFtEeiMnMx4Wkx62w" name="strikes"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xsKsNQFtEeiMnMx4Wkx62w" name="produces" memberEnd="_xsKsPwFtEeiMnMx4Wkx62w _xsKsOAFtEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_xsKsNgFtEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_xsKsNwFtEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_xsKsOAFtEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_xsKsNQFtEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xsKsOQFtEeiMnMx4Wkx62w" name="fastball"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xsKsPgFtEeiMnMx4Wkx62w" name="Factor">
+      <ownedAttribute xmi:id="_xsKsPwFtEeiMnMx4Wkx62w" name="weights" type="_xsKsRAFtEeiMnMx4Wkx62w" association="_xsKsNQFtEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_xsKsQAFtEeiMnMx4Wkx62w" name="strikes" type="_xsKsNAFtEeiMnMx4Wkx62w" association="_xsKsMAFtEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_xsKsQQFtEeiMnMx4Wkx62w" name="balls" type="_xsKsQwFtEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_xsKsQgFtEeiMnMx4Wkx62w" name="fastball" type="_xsKsOQFtEeiMnMx4Wkx62w" association="_xsKsRQFtEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_tAACkAFuEeiMnMx4Wkx62w" name="outs" type="_ez2s8AFuEeiMnMx4Wkx62w" association="_s_578AFuEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_9dE5AwFuEeiMnMx4Wkx62w" name="scoredifferential" type="_4f7pkAFuEeiMnMx4Wkx62w" association="_9dE5AAFuEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_t8se4wFvEeiMnMx4Wkx62w" name="basesloaded" type="_XknCkAFvEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_6DaHIwFxEeiMnMx4Wkx62w" name="inning" type="_VytKoAFwEeiMnMx4Wkx62w" association="_6DaHIAFxEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_Lw3AUgFyEeiMnMx4Wkx62w" name="handedness" type="_7MM7MAFxEeiMnMx4Wkx62w" association="_Lww5sAFyEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_rRptkwFyEeiMnMx4Wkx62w" name="numpitches" type="_myL4oAFyEeiMnMx4Wkx62w" association="_rRptkAFyEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_SjTvEwFzEeiMnMx4Wkx62w" name="homeprior" type="__fI6kAFyEeiMnMx4Wkx62w" association="_SjTvEAFzEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_WY4ScwFzEeiMnMx4Wkx62w" name="basesloaded" type="_XknCkAFvEeiMnMx4Wkx62w" association="_WY4ScAFzEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_XMvYUwFzEeiMnMx4Wkx62w" name="balls" type="_xsKsQwFtEeiMnMx4Wkx62w" association="_XMvYUAFzEeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_NkTB8wF0EeiMnMx4Wkx62w" name="battingteamprior" type="_ZTMugAFzEeiMnMx4Wkx62w" association="_NkTB8AF0EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_XOAuMwF0EeiMnMx4Wkx62w" name="countprior" type="_UyQdcAF0EeiMnMx4Wkx62w" association="_XOAuMAF0EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_NjdfAwF1EeiMnMx4Wkx62w" name="batterprior" type="_zncB4AF0EeiMnMx4Wkx62w" association="_NjdfAAF1EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_8ri0wwF2EeiMnMx4Wkx62w" name="homesupportprior" type="_tNsmsAF2EeiMnMx4Wkx62w" association="_8ri0wAF2EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_MthqogF3EeiMnMx4Wkx62w" name="battingteampriorsupport" type="_9j280AF2EeiMnMx4Wkx62w" association="_MthDkAF3EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_YsO4UwF3EeiMnMx4Wkx62w" name="countpriorsupport" type="_NPmc8AF3EeiMnMx4Wkx62w" association="_YsO4UAF3EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_h_B5YwF3EeiMnMx4Wkx62w" name="batterpriorsupport" type="_aII1oAF3EeiMnMx4Wkx62w" association="_h_B5YAF3EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_zMK60wF3EeiMnMx4Wkx62w" name="batterslugging" type="_lcxyoAF3EeiMnMx4Wkx62w" association="_zMK60AF3EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_O2g68wF4EeiMnMx4Wkx62w" name="batterruns" type="__N3yIAF3EeiMnMx4Wkx62w" association="_O2g68AF4EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_MSNVswF5EeiMnMx4Wkx62w" name="previouspitchtype" type="__PXKcAF4EeiMnMx4Wkx62w" association="_MSNVsAF5EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_bOegswF5EeiMnMx4Wkx62w" name="previouspitchresult" type="_O_5D8AF5EeiMnMx4Wkx62w" association="_bOegsAF5EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_BXw6AgF8EeiMnMx4Wkx62w" name="previouspitchvelocity" type="_3jPE4AF7EeiMnMx4Wkx62w" association="_BXqzYAF8EeiMnMx4Wkx62w"/>
+      <ownedAttribute xmi:id="_MaUBcwF8EeiMnMx4Wkx62w" name="previouspitchvelocitygradient" type="_DZqgUAF8EeiMnMx4Wkx62w" association="_MaUBcAF8EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xsKsQwFtEeiMnMx4Wkx62w" name="balls"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xsKsRAFtEeiMnMx4Wkx62w" name="Weights"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xsKsRQFtEeiMnMx4Wkx62w" name="parameterPredict" memberEnd="_xsKsQgFtEeiMnMx4Wkx62w _xsKsSAFtEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_xsKsRgFtEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_xsKsRwFtEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_xsKsSAFtEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_xsKsRQFtEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ez2s8AFuEeiMnMx4Wkx62w" name="outs"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_s_578AFuEeiMnMx4Wkx62w" memberEnd="_tAACkAFuEeiMnMx4Wkx62w _tAACkQFuEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_s_578QFuEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_s_578gFuEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_tAACkQFuEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_s_578AFuEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4f7pkAFuEeiMnMx4Wkx62w" name="scoreDifferential"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_9dE5AAFuEeiMnMx4Wkx62w" memberEnd="_9dE5AwFuEeiMnMx4Wkx62w _9dE5BAFuEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_9dE5AQFuEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_9dE5AgFuEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_9dE5BAFuEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_9dE5AAFuEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_XknCkAFvEeiMnMx4Wkx62w" name="basesLoaded">
+      <ownedComment xmi:id="_np7gUAFvEeiMnMx4Wkx62w">
+        <body>THIS IS A BOOLEAN WHERE &#xD;
+1=TRUE&#xD;
+0=FALSE&#xD;
+FOR BASES LOADED?</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VytKoAFwEeiMnMx4Wkx62w" name="inning"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_6DaHIAFxEeiMnMx4Wkx62w" memberEnd="_6DaHIwFxEeiMnMx4Wkx62w _6DaHJAFxEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_6DaHIQFxEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_6DaHIgFxEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_6DaHJAFxEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_6DaHIAFxEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7MM7MAFxEeiMnMx4Wkx62w" name="handedness">
+      <ownedComment xmi:id="_BUg9QAFyEeiMnMx4Wkx62w">
+        <body>1=SAME HANDEDNESS&#xD;
+0=DIFFERENT HANDEDNESS</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Lww5sAFyEeiMnMx4Wkx62w" memberEnd="_Lw3AUgFyEeiMnMx4Wkx62w _Lw3AUwFyEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_Lw3AUAFyEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_Lw3AUQFyEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_Lw3AUwFyEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_Lww5sAFyEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_myL4oAFyEeiMnMx4Wkx62w" name="numPitches"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_rRptkAFyEeiMnMx4Wkx62w" memberEnd="_rRptkwFyEeiMnMx4Wkx62w _rRptlAFyEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_rRptkQFyEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_rRptkgFyEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_rRptlAFyEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_rRptkAFyEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__fI6kAFyEeiMnMx4Wkx62w" name="homePrior"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_SjTvEAFzEeiMnMx4Wkx62w" memberEnd="_SjTvEwFzEeiMnMx4Wkx62w _SjTvFAFzEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_SjTvEQFzEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_SjTvEgFzEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_SjTvFAFzEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_SjTvEAFzEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WY4ScAFzEeiMnMx4Wkx62w" memberEnd="_WY4ScwFzEeiMnMx4Wkx62w _WY4SdAFzEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_WY4ScQFzEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_WY4ScgFzEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_WY4SdAFzEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_WY4ScAFzEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XMvYUAFzEeiMnMx4Wkx62w" memberEnd="_XMvYUwFzEeiMnMx4Wkx62w _XMvYVAFzEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_XMvYUQFzEeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_XMvYUgFzEeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_XMvYVAFzEeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_XMvYUAFzEeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZTMugAFzEeiMnMx4Wkx62w" name="battingTeamPrior"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NkTB8AF0EeiMnMx4Wkx62w" memberEnd="_NkTB8wF0EeiMnMx4Wkx62w _NkTB9AF0EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_NkTB8QF0EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_NkTB8gF0EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_NkTB9AF0EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_NkTB8AF0EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_UyQdcAF0EeiMnMx4Wkx62w" name="countPrior"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_XOAuMAF0EeiMnMx4Wkx62w" memberEnd="_XOAuMwF0EeiMnMx4Wkx62w _XOAuNAF0EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_XOAuMQF0EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_XOAuMgF0EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_XOAuNAF0EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_XOAuMAF0EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zncB4AF0EeiMnMx4Wkx62w" name="batterPrior"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NjdfAAF1EeiMnMx4Wkx62w" memberEnd="_NjdfAwF1EeiMnMx4Wkx62w _NjdfBAF1EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_NjdfAQF1EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_NjdfAgF1EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_NjdfBAF1EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_NjdfAAF1EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tNsmsAF2EeiMnMx4Wkx62w" name="homePriorSupport"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_8ri0wAF2EeiMnMx4Wkx62w" memberEnd="_8ri0wwF2EeiMnMx4Wkx62w _8ri0xAF2EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_8ri0wQF2EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_8ri0wgF2EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_8ri0xAF2EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_8ri0wAF2EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_9j280AF2EeiMnMx4Wkx62w" name="battingTeamPriorSupport"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MthDkAF3EeiMnMx4Wkx62w" memberEnd="_MthqogF3EeiMnMx4Wkx62w _MthqowF3EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_MthqoAF3EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_MthqoQF3EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_MthqowF3EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_MthDkAF3EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NPmc8AF3EeiMnMx4Wkx62w" name="countPriorSupport"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_YsO4UAF3EeiMnMx4Wkx62w" memberEnd="_YsO4UwF3EeiMnMx4Wkx62w _YsO4VAF3EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_YsO4UQF3EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_YsO4UgF3EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_YsO4VAF3EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_YsO4UAF3EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aII1oAF3EeiMnMx4Wkx62w" name="batterPriorSupport"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_h_B5YAF3EeiMnMx4Wkx62w" memberEnd="_h_B5YwF3EeiMnMx4Wkx62w _h_B5ZAF3EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_h_B5YQF3EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_h_B5YgF3EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_h_B5ZAF3EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_h_B5YAF3EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lcxyoAF3EeiMnMx4Wkx62w" name="batterSlugging"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zMK60AF3EeiMnMx4Wkx62w" memberEnd="_zMK60wF3EeiMnMx4Wkx62w _zMK61AF3EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_zMK60QF3EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_zMK60gF3EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_zMK61AF3EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_zMK60AF3EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__N3yIAF3EeiMnMx4Wkx62w" name="batterRuns"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_O2g68AF4EeiMnMx4Wkx62w" memberEnd="_O2g68wF4EeiMnMx4Wkx62w _O2g69AF4EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_O2g68QF4EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_O2g68gF4EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_O2g69AF4EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_O2g68AF4EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="__PXKcAF4EeiMnMx4Wkx62w" name="previousPitchType">
+      <ownedComment xmi:id="_IuglcAF5EeiMnMx4Wkx62w">
+        <body>1=FASTBALL&#xD;
+0=NON-FASTBALL</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MSNVsAF5EeiMnMx4Wkx62w" memberEnd="_MSNVswF5EeiMnMx4Wkx62w _MSNVtAF5EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_MSNVsQF5EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_MSNVsgF5EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_MSNVtAF5EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_MSNVsAF5EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_O_5D8AF5EeiMnMx4Wkx62w" name="previousPitchResult">
+      <ownedComment xmi:id="_afodsAF5EeiMnMx4Wkx62w">
+        <body>1=HIT&#xD;
+2=NON-HIT</body>
+      </ownedComment>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_bOegsAF5EeiMnMx4Wkx62w" memberEnd="_bOegswF5EeiMnMx4Wkx62w _bOegtAF5EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_bOegsQF5EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_bOegsgF5EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_bOegtAF5EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_bOegsAF5EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3jPE4AF7EeiMnMx4Wkx62w" name="previousPitchVelocity"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BXqzYAF8EeiMnMx4Wkx62w" memberEnd="_BXw6AgF8EeiMnMx4Wkx62w _BXw6AwF8EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_BXw6AAF8EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_BXw6AQF8EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_BXw6AwF8EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_BXqzYAF8EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DZqgUAF8EeiMnMx4Wkx62w" name="previousPitchVelocityGradient"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_MaUBcAF8EeiMnMx4Wkx62w" memberEnd="_MaUBcwF8EeiMnMx4Wkx62w _MaUBdAF8EeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_MaUBcQF8EeiMnMx4Wkx62w" source="org.eclipse.papyrus">
+        <details xmi:id="_MaUBcgF8EeiMnMx4Wkx62w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:id="_MaUBdAF8EeiMnMx4Wkx62w" name="factor" type="_xsKsPgFtEeiMnMx4Wkx62w" association="_MaUBcAF8EeiMnMx4Wkx62w"/>
+    </packagedElement>
+    <profileApplication xmi:id="_wMwu8AFtEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_wM21kQFtEeiMnMx4Wkx62w" source="PapyrusVersion">
+        <details xmi:id="_wM21kgFtEeiMnMx4Wkx62w" key="Version" value="0.0.13"/>
+        <details xmi:id="_wM21kwFtEeiMnMx4Wkx62w" key="Comment" value=""/>
+        <details xmi:id="_wM21lAFtEeiMnMx4Wkx62w" key="Copyright" value=""/>
+        <details xmi:id="_wM21lQFtEeiMnMx4Wkx62w" key="Date" value="2017-11-14"/>
+        <details xmi:id="_wM21lgFtEeiMnMx4Wkx62w" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:id="_wM21kAFtEeiMnMx4Wkx62w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/wtf/model.profile.uml#_DtykUMmkEeeCRIDL_dliCQ"/>
+      </eAnnotations>
+      <appliedProfile href="/wtf/model.profile.uml#_sAylsLO5Eee6XbCAmhUn-A"/>
+    </profileApplication>
+    <profileApplication xmi:id="_XVrHUAFyEeiMnMx4Wkx62w">
+      <eAnnotations xmi:id="_XVrHUQFyEeiMnMx4Wkx62w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="model.profile.uml#_DtykUMmkEeeCRIDL_dliCQ"/>
+      </eAnnotations>
+      <appliedProfile href="model.profile.uml#_sAylsLO5Eee6XbCAmhUn-A"/>
+    </profileApplication>
+  </uml:Model>
+  <RootElement:ObservedVariable xmi:id="_y8CYoAFtEeiMnMx4Wkx62w" base_Class="_xsKsNAFtEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{ 2, 1, 2, 0, 1, 0 }" testValues="{ 2, 1, 2 }"/>
+  <RootElement:ObservedVariable xmi:id="_zhi5cAFtEeiMnMx4Wkx62w" base_Class="_xsKsQwFtEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{ 3, 3, 0, 2, 1, 0 }" testValues="{ 3, 2, 0 }"/>
+  <RootElement:Factor xmi:id="_0UpxYAFtEeiMnMx4Wkx62w" base_Class="_xsKsPgFtEeiMnMx4Wkx62w"/>
+  <RootElement:RandomVariable xmi:id="_06PxwAFtEeiMnMx4Wkx62w" base_Class="_xsKsRAFtEeiMnMx4Wkx62w" dataType="Float"/>
+  <RootElement:ObservedVariable xmi:id="_1nggYAFtEeiMnMx4Wkx62w" base_Class="_xsKsOQFtEeiMnMx4Wkx62w" dataType="Boolean" predict="true" trainValues="{ true, false, true, true, false, false }"/>
+  <RootElement:ObservedVariable xmi:id="_gi0wMAFuEeiMnMx4Wkx62w" base_Class="_ez2s8AFuEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{0, 1, 1, 2, 0, 2}" testValues="{1, 1, 0, 0, 2, 2}"/>
+  <RootElement:ObservedVariable xmi:id="_6gLDAAFuEeiMnMx4Wkx62w" base_Class="_4f7pkAFuEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{0, 3, 2, 1, 1, 2}" testValues="{1, 0, 1, 2, 1, 3}"/>
+  <RootElement:ObservedVariable xmi:id="_aXjEQAFvEeiMnMx4Wkx62w" base_Class="_XknCkAFvEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{1, 0, 0, 0, 1, 0}" testValues="{0, 0, 0, 1, 0, 0}"/>
+  <RootElement:ObservedVariable xmi:id="_YGmf4AFwEeiMnMx4Wkx62w" base_Class="_VytKoAFwEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{1, 5, 7, 2, 1, 4}" testValues="{3, 1, 3, 2, 9, 6}"/>
+  <RootElement:ObservedVariable xmi:id="_92DSUAFxEeiMnMx4Wkx62w" base_Class="_7MM7MAFxEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{1, 1, 1, 1, 1, 0}" testValues="{0, 1, 1, 0, 1, 1}"/>
+  <RootElement:ObservedVariable xmi:id="_qF6TMAFyEeiMnMx4Wkx62w" base_Class="_myL4oAFyEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{18, 32, 9, 1, 88, 34}" testValues="{36, 20, 29, 11, 68, 5}"/>
+  <RootElement:ObservedVariable xmi:id="_EWCYEAFzEeiMnMx4Wkx62w" base_Class="__fI6kAFyEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{.25, .36, .88, .75, .99, .92}" testValues="{.05, .87, .77, .62, .86, .70}"/>
+  <RootElement:ObservedVariable xmi:id="_n3vWAAFzEeiMnMx4Wkx62w" base_Class="_ZTMugAFzEeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{.15, .78, .59, .75, .14, .06}" testValues="{.4, .45, .58, .02, 1, .7}"/>
+  <RootElement:ObservedVariable xmi:id="_WmVqMAF0EeiMnMx4Wkx62w" base_Class="_UyQdcAF0EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{.89, .18, .72, .72, .1, .49}" testValues="{.03, .38, .92, .06, .7, .23}"/>
+  <RootElement:ObservedVariable xmi:id="_6zIzkAF0EeiMnMx4Wkx62w" base_Class="_zncB4AF0EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{.7, .53, .91, .56, .9, .8}" testValues="{.08, .1, .04, .59, .90, .11}"/>
+  <RootElement:ObservedVariable xmi:id="_wvFp0AF2EeiMnMx4Wkx62w" base_Class="_tNsmsAF2EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{180, 58, 75, 234, 75, 250}" testValues="{10, 115, 104, 166, 171, 173}"/>
+  <RootElement:ObservedVariable xmi:id="_D4_58AF3EeiMnMx4Wkx62w" base_Class="_9j280AF2EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{44, 58, 59, 204, 167, 61}" testValues="{162, 151, 27, 207, 144, 163}"/>
+  <RootElement:ObservedVariable xmi:id="_RUAGgAF3EeiMnMx4Wkx62w" base_Class="_NPmc8AF3EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{32, 237, 151, 56, 58, 131}" testValues="{38, 22, 114, 130, 195, 182}"/>
+  <RootElement:ObservedVariable xmi:id="_cFM_QAF3EeiMnMx4Wkx62w" base_Class="_aII1oAF3EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{193, 226, 244, 9, 153, 122}" testValues="{140, 190, 57, 233, 194, 9}"/>
+  <RootElement:ObservedVariable xmi:id="_sc6NgAF3EeiMnMx4Wkx62w" base_Class="_lcxyoAF3EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{.182, .493, .337, .155, .157, .372}" testValues="{.237, .172, .222, .2, .393, .282}"/>
+  <RootElement:ObservedVariable xmi:id="_F-cuEAF4EeiMnMx4Wkx62w" base_Class="__N3yIAF3EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{37, 84, 12, 35, 53, 74}" testValues="{24, 48, 90, 54, 89, 75}"/>
+  <RootElement:ObservedVariable xmi:id="_Bql2wAF5EeiMnMx4Wkx62w" base_Class="__PXKcAF4EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{1, 0, 1, 1, 0, 1}" testValues="{1, 1, 1, 0, 1, 1}"/>
+  <RootElement:ObservedVariable xmi:id="_UrYAEAF5EeiMnMx4Wkx62w" base_Class="_O_5D8AF5EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{1, 0, 0, 1, 1, 0}" testValues="{1, 0, 1, 0, 0, 0}"/>
+  <RootElement:ObservedVariable xmi:id="_6GNX8AF7EeiMnMx4Wkx62w" base_Class="_3jPE4AF7EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{87, 85, 89, 91, 97, 101}" testValues="{94, 88, 84, 101, 101, 110}"/>
+  <RootElement:ObservedVariable xmi:id="_FRin8AF8EeiMnMx4Wkx62w" base_Class="_DZqgUAF8EeiMnMx4Wkx62w" dataType="Double" infer="true" trainValues="{12, 1, -13, 1, 13, 12}" testValues="{-5, -11, -2, -9, 1, 1}"/>
+</xmi:XMI>

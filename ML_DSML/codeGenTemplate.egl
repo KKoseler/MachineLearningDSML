@@ -1,0 +1,84 @@
+[% 
+var findObvStereotype = Stereotype.all.selectOne(s | s.name = "Observed Variable");
+var findRandomStereotype = Stereotype.all.selectOne(s | s.name = "Random Variable");
+var predVar = Class.all;
+var classes = Class.all;
+var observedVarCount = 0; 
+var nonPredObserveds = new Bag;
+for (c in classes) { 
+	if (c.getAppliedStereotypes.includes(findObvStereotype)) { 
+		observedVarCount++;
+		if (c.stereotypeApplications.predict.first()) { 
+			predVar = c;
+		}
+		else {
+			nonPredObserveds.add(c);
+		}
+	}
+}
+%]
+using System;
+using System.Collections.Generic;
+using System.Text;
+using MicrosoftResearch.Infer.Models;
+using MicrosoftResearch.Infer;
+using MicrosoftResearch.Infer.Distributions;
+using MicrosoftResearch.Infer.Maths;
+
+namespace ML_DSML
+{
+    public class DSMLCodeGen
+    {
+        public static void Main(string[] args)
+        {
+            // The labeled training data
+[%
+	    for (c in classes) { 
+	    if (c.getAppliedStereotypes.includes(findObvStereotype)) {
+	    	if (c.stereotypeApplications.dataType.first() == "Double") { %]
+	    	double[] [%=c.name%] = [%=c.stereotypeApplications.trainValues.first()%];
+	    	[%}
+	    	else {%]
+	    	bool[] [%=c.name%] = [%=c.stereotypeApplications.trainValues.first()%];
+	    	[%}
+}
+}%]
+
+            // Create target vector and weights
+            VariableArray<bool> y = Variable.Observed([%=predVar.name%]).Named("y");
+            Variable<Vector> w = Variable.Random(new VectorGaussian(Vector.Zero([%=observedVarCount%]),
+                PositiveDefiniteMatrix.Identity([%=observedVarCount%]))).Named("w");
+
+            BayesPointMachine([% for (o in nonPredObserveds) {%][%=o.name%], [%}%]w, y);
+
+            //create inference engine object and infer posterior distribution 
+            //of weights
+            InferenceEngine engine = new InferenceEngine();
+            VectorGaussian wPosterior = engine.Infer<VectorGaussian>(w);
+            Console.WriteLine("Dist over w=\n" + wPosterior);
+
+            //make predictions on test data
+            [% for (o in nonPredObserveds) {%]
+            double[] [%=o.name%]Test = [%=o.stereotypeApplications.testValues.first()%];
+            [%}%]
+            VariableArray<bool> ytest = Variable.Array<bool>(new Range([%=nonPredObserveds.first().name%]Test.Length)).Named("ytest");
+            BayesPointMachine([% for (o in nonPredObserveds) {%][%=o.name%]Test, [%}%]Variable.Random(wPosterior).Named("w"), ytest);
+            Console.WriteLine("output=\n" + engine.Infer(ytest));
+
+        }
+
+        public static void BayesPointMachine([% for (o in nonPredObserveds) {%]double[] [%=o.name%], [%}%]Variable<Vector> w, VariableArray<bool> y)
+        {
+            // Create training data vector with bias parameter of 1
+            Range j = y.Range;
+            Vector[] xVector = new Vector[[%=nonPredObserveds.first().name%].Length];
+            for (int i = 0; i < xVector.Length; i++)
+                xVector[i] = Vector.FromArray([% for (o in nonPredObserveds) {%][%=o.name%][i], [%}%] 1);
+            VariableArray<Vector> x = Variable.Observed(xVector, j).Named("x");
+
+            // Bayes Point Machine, dot product of weights and feature vector
+            double noise = 0.1;
+            y[j] = Variable.GaussianFromMeanAndVariance(Variable.InnerProduct(w, x[j]).Named("innerProduct"), noise) > 0;
+        }
+    }
+}
